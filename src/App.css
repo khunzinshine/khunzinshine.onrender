@@ -128,7 +128,7 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -180,8 +180,14 @@ html {
 
 /* Medium Devices */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
   .section {
     padding: 2rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 
