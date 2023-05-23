@@ -9,7 +9,7 @@ const Social = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <i class='uil uil-github'></i>
+        <i className='uil uil-github'></i>
       </a>
 
       <a
@@ -18,7 +18,7 @@ const Social = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <i class='uil uil-linkedin'></i>
+        <i className='uil uil-linkedin'></i>
       </a>
 
       <a
@@ -27,7 +27,7 @@ const Social = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <i class='uil uil-skype'></i>
+        <i className='uil uil-skype'></i>
       </a>
 
       <a
@@ -36,7 +36,7 @@ const Social = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <i class='uil uil-instagram-alt'></i>
+        <i className='uil uil-instagram-alt'></i>
       </a>
     </div>
   );
