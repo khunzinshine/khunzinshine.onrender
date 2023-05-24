@@ -7,7 +7,7 @@ const Backend = () => {
       <div className='skills__box'>
         <div className='skills__group'>
           <div className='skills__data'>
-            <i class='bx bxl-nodejs'></i>
+            <i className='bx bxl-nodejs'></i>
             <div>
               <h3 className='skills__name'>Node.js</h3>
               <span className='skills__level'>Intermediate</span>
@@ -15,7 +15,7 @@ const Backend = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxl-mongodb'></i>
+            <i className='bx bxl-mongodb'></i>
             <div>
               <h3 className='skills__name'>MongoDB</h3>
               <span className='skills__level'>Intermediate</span>
@@ -23,7 +23,7 @@ const Backend = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxl-firebase'></i>
+            <i className='bx bxl-firebase'></i>
             <div>
               <h3 className='skills__name'>Firebase</h3>
               <span className='skills__level'>Intermediate</span>
@@ -33,7 +33,7 @@ const Backend = () => {
 
         <div className='skills__group'>
           <div className='skills__data'>
-            <i class='bx bxl-python'></i>
+            <i className='bx bxl-python'></i>
             <div>
               <h3 className='skills__name'>Python</h3>
               <span className='skills__level'>Basic</span>
@@ -41,7 +41,7 @@ const Backend = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxl-django'></i>
+            <i className='bx bxl-django'></i>
             <div>
               <h3 className='skills__name'>Django</h3>
               <span className='skills__level'>Basic</span>
@@ -49,7 +49,7 @@ const Backend = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxl-postgresql'></i>
+            <i className='bx bxl-postgresql'></i>
             <div>
               <h3 className='skills__name'>Postgres</h3>
               <span className='skills__level'>Intermediate</span>
