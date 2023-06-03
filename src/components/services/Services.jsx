@@ -1,4 +1,4 @@
-import './services.css';
+import './services.scss';
 
 import React, { useState } from 'react';
 
