@@ -1,4 +1,4 @@
-import './about.css';
+import './about.scss';
 
 import AboutImg from '../../assets/profile.jpg';
 import Info from './Info';
