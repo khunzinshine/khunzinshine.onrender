@@ -1,4 +1,4 @@
-import './Contact.css';
+import './Contact.scss';
 import 'react-toastify/dist/ReactToastify.css';
 
 import React, { useRef } from 'react';
