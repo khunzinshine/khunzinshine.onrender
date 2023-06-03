@@ -1,4 +1,4 @@
-import './home.css';
+import './home.scss';
 
 import Data from './Data';
 import React from 'react';
