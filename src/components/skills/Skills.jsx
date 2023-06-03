@@ -1,4 +1,4 @@
-import './skills.css';
+import './skills.scss';
 
 import Backend from './Backend';
 import Frontend from './Frontend';
