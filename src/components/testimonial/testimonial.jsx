@@ -1,4 +1,4 @@
-import './testimonial.css';
+import './testimonial.scss';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

@@ -1,4 +1,4 @@
-import './qualification.css';
+import './qualification.scss';
 
 import React from 'react';
 

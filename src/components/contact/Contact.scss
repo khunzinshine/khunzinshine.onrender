@@ -13,7 +13,7 @@
   }
   &__info {
     display: grid;
-    row-gap: 1rem;
+    row-gap: 2.5rem;
     grid-template-columns: 300px;
   }
   &__card {
@@ -30,7 +30,7 @@
     &-title,
     &-data {
       display: block;
-      margin-bottom: var(--mb-0-75);
+      margin-bottom: var(--mb-0-5);
       font-size: var(--small-font-size);
     }
     &-title {
@@ -88,6 +88,10 @@
         resize: none;
       }
     }
+  }
+  &__button-send {
+    justify-content: center;
+    width: 100%;
   }
 }
 
