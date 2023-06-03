@@ -38,8 +38,8 @@ const Contact = () => {
     <>
       <ToastContainer />
       <section className='contact section' id='contact'>
-        <h2 className='section__title'>Get in touch</h2>
-        <span className='section__subtitle'>Contact</span>
+        <h2 className='section__title'>Contact</h2>
+        <span className='section__subtitle'>Get in touch</span>
 
         <div className='contact__container container grid'>
           <div className='contact__content'>
@@ -49,15 +49,15 @@ const Contact = () => {
               <div className='contact__card'>
                 <i className='bx bx-mail-send contact__card-icon'></i>
                 <h3 className='contact__card-title'>Email</h3>
-                <span className='contact__card-data'>
+                {/* <span className='contact__card-data'>
                   khunzinshine@gmail.com
-                </span>
+                </span> */}
 
                 <a
                   href='mailto:khunzinshine@gmail.com'
                   className='contact__button'
                 >
-                  Write Me
+                  Direct Message
                   <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                 </a>
               </div>
@@ -65,13 +65,13 @@ const Contact = () => {
               <div className='contact__card'>
                 <i className='bx bxl-linkedin contact__card-icon'></i>
                 <h3 className='contact__card-title'>Linkedin</h3>
-                <span className='contact__card-data'>Khun Zin Shine</span>
+                {/* <span className='contact__card-data'>Khun Zin Shine</span> */}
 
                 <a
                   href='https://www.linkedin.com/in/khun-zin-shine/'
                   className='contact__button'
                 >
-                  Write Me
+                  Direct Message
                   <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                 </a>
               </div>
@@ -79,13 +79,13 @@ const Contact = () => {
               <div className='contact__card'>
                 <i className='bx bxl-skype contact__card-icon'></i>
                 <h3 className='contact__card-title'>Skype</h3>
-                <span className='contact__card-data'>(+959) 788926700</span>
+                {/* <span className='contact__card-data'>(+959) 788926700</span> */}
 
                 <a
                   href='https://join.skype.com/invite/dBb8BnLPCvOo'
                   className='contact__button'
                 >
-                  Write Me
+                  Direct Message
                   <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                 </a>
               </div>
@@ -131,7 +131,10 @@ const Contact = () => {
                   placeholder='Write your project overview'
                 ></textarea>
               </div>
-              <button href='#contact' className='button button--flex'>
+              <button
+                href='#contact'
+                className='button button--flex contact__button-send'
+              >
                 Send Message
                 <svg
                   className='button__icon'
