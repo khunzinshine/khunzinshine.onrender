@@ -102,6 +102,7 @@ const Contact = () => {
                 <input
                   type='text'
                   name='name'
+                  required
                   className='contact__form-input'
                   placeholder='Insert your name'
                 />
@@ -114,6 +115,7 @@ const Contact = () => {
                 <input
                   type='text'
                   name='email'
+                  required
                   className='contact__form-input'
                   placeholder='Insert your email'
                 />
@@ -127,6 +129,7 @@ const Contact = () => {
                   name='project'
                   className='contact__form-input'
                   cols='30'
+                  required
                   rows='10'
                   placeholder='Write your project overview'
                 ></textarea>
