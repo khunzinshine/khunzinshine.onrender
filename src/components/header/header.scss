@@ -96,6 +96,7 @@
     &__toggle {
       font-size: 1.1rem;
       cursor: pointer;
+      animation: floating 2s ease-in-out infinite;
     }
 
     &__icon,
@@ -120,5 +121,17 @@
     &__list {
       column-gap: 0;
     }
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
