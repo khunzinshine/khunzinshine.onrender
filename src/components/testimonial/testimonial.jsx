@@ -1,7 +1,4 @@
 import './testimonial.scss';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
