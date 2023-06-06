@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
+import Portfolio from './components/portfolio/Portfolio';
 import Qualification from './components/qualification/Qualification';
 import ScrollToTop from './components/scrolltop/ScrollToTop';
 import Services from './components/services/Services';
@@ -19,6 +20,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Portfolio />
         {/* <Testimonial /> */}
         <Contact />
         <ScrollToTop />
