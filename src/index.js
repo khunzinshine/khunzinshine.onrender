@@ -1,4 +1,7 @@
 import './index.scss';
+// import Swiper Styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 import App from './App';
 import React from 'react';
