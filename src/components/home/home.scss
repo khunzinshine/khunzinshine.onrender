@@ -29,7 +29,7 @@
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 70px;
       height: 1px;
@@ -44,7 +44,6 @@
     font-size: var(--small-font-size);
   }
   &__img {
-    background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
