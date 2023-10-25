@@ -1,7 +1,7 @@
 .skills {
   &__container {
-    grid-template-columns: repeat(3, 312px);
-    gap: 1rem;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
   }
   &__content {
     background-color: var(--container-color);
@@ -18,7 +18,7 @@
   &__box {
     display: flex;
     justify-content: center;
-    column-gap: 3rem;
+    column-gap: 5rem;
   }
   &__group {
     display: grid;
