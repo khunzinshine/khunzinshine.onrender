@@ -1,8 +1,7 @@
 import "./home.scss";
 
 import Data from "./Data";
-import ProfileImg from "../../assets/profilePhoto.jpeg";
-import React from "react";
+import ProfileImg from "../../assets/profile.jpg";
 import Scroll from "./Scroll";
 import Social from "./Social";
 

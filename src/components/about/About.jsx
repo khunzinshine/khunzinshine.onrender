@@ -2,7 +2,6 @@ import "./about.scss";
 
 import Info from "./Info";
 import MyCV from "../../assets/khunzinshine_resume.pdf";
-import React from "react";
 
 const About = () => {
   return (
@@ -13,13 +12,12 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Passionate about designing and developing innovative solutions while
-            excelling at problem-solving. Proficient in JavaScript, with
-            expertise in frameworks like ReactJS, React Native, NextJS, and
-            NodeJS. I have accumulated over 3 years of experience in software
-            development, primarily in the digital banking/financial and retail
-            groceries industries. I thrive on embracing new challenges and
-            working with cutting-edge technologies.
+            Full Stack Developer with 5+ years of experience, skilled in
+            JavaScript, TypeScript, ReactJS, NextJS, and NodeJS. I have worked
+            in the digital banking and retail grocery industries, building
+            efficient, user-focused applications. I enjoy solving complex
+            problems and continuously learning new technologies to stay ahead in
+            the field.
           </p>
           <a download href={MyCV} className="button button--flex">
             Download CV

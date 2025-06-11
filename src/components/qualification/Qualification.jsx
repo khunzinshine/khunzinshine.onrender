@@ -1,7 +1,5 @@
 import "./qualification.scss";
 
-import React from "react";
-
 const Qualification = () => {
   return (
     <section className="qualification section">
@@ -25,12 +23,12 @@ const Qualification = () => {
           <div className="qualification__content qualification__content-active">
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle">
-                  City Holdings Limited
-                </span>
+                <h3 className="qualification__title">
+                  Senior Frontend Developer
+                </h3>
+                <span className="qualification__subtitle">Codigo</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Jan 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> Nov 2023 - Present
                 </div>
               </div>
 
@@ -54,6 +52,41 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Dec 2014 - Sep 2019
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">
+                  City Holdings Limited
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Jan 2023 - Oct 2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  The Complete Node.js Developer
+                </h3>
+                <span className="qualification__subtitle">Udemy</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Feb 2021
                 </div>
               </div>
             </div>
@@ -84,7 +117,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  The Complete Node.js Developer
+                  React - The Complete Guide
                 </h3>
                 <span className="qualification__subtitle">Udemy</span>
                 <div className="qualification__calendar">
@@ -119,11 +152,11 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  React - The Complete Guide
+                  The Agile Sumurai Bootcamp
                 </h3>
                 <span className="qualification__subtitle">Udemy</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Feb 2021
+                  <i className="uil uil-calendar-alt"></i> Sep 2020
                 </div>
               </div>
             </div>
@@ -144,24 +177,6 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">
-                  The Agile Sumurai Bootcamp
-                </h3>
-                <span className="qualification__subtitle">Udemy</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Sep 2020
-                </div>
               </div>
             </div>
           </div>

@@ -1,23 +1,22 @@
-import './Portfolio.scss';
+import "./Portfolio.scss";
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Data } from './Data';
+import { Data } from "./Data";
 // import required modules
-import { Pagination } from 'swiper';
-import React from 'react';
+import { Pagination } from "swiper";
 
 // Import Swiper styles
 
 const Portfolio = () => {
   return (
-    <section className='portfolio container section' id='portfolio'>
-      <h2 className='section__title'>Portfolio</h2>
-      <span className='section__subtitle'>My Projects</span>
+    <section className="portfolio container section" id="portfolio">
+      <h2 className="section__title">Portfolio</h2>
+      <span className="section__subtitle">My Projects</span>
 
       <Swiper
-        className='portfolio__container'
+        className="portfolio__container"
         loop={true}
         spaceBetween={24}
         grabCursor={true}
@@ -37,12 +36,12 @@ const Portfolio = () => {
       >
         {Data.map(({ id, image, title, description }) => {
           return (
-            <SwiperSlide className='portfolio__card' key={id}>
+            <SwiperSlide className="portfolio__card" key={id}>
               <div>
-                <img src={image} alt='clients' className='portfolio__img' />
+                <img src={image} alt="clients" className="portfolio__img" />
               </div>
-              <h3 className='portfolio__name'>{title}</h3>
-              <p className='portfolio__description'>{description}</p>
+              <h3 className="portfolio__name">{title}</h3>
+              <p className="portfolio__description">{description}</p>
             </SwiperSlide>
           );
         })}
