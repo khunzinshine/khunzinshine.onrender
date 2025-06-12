@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+
 const Backend = () => {
   return (
-    <div className="skills__content">
+    <motion.div
+      className="skills__content"
+      initial={{ opacity: 0, x: 50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: false, amount: 0.2 }}
+      transition={{ duration: 0.6 }}
+    >
       <h3 className="skills__title">Backend</h3>
       <div className="skills__box">
         <div className="skills__group">
@@ -55,7 +63,7 @@ const Backend = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

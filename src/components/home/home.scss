@@ -140,6 +140,9 @@
 /* Medium Devices */
 @media screen and (max-width: 768px) {
   .home {
+    &__container {
+      row-gap: 1rem;
+    }
     &__content {
       grid-template-columns: auto;
       padding-top: 3.5rem;
@@ -173,6 +176,9 @@
     &__hand {
       width: 22px;
       height: 22px;
+    }
+    &__container {
+      row-gap: 1rem;
     }
   }
 }

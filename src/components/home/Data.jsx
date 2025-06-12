@@ -1,7 +1,19 @@
+import { motion } from "framer-motion";
+
 const Data = () => {
   return (
-    <div className="home__data">
-      <h1 className="home__title">
+    <motion.div
+      className="home__data"
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
+    >
+      <motion.h1
+        className="home__title"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.7 }}
+      >
         Khun Zin Shine
         <svg
           width="36"
@@ -52,13 +64,34 @@ const Data = () => {
             fill="#EBA352"
           ></path>
         </svg>
-      </h1>
-      <h3 className="home__subtitle">Full Stack Developer</h3>
-      <p className="home__description">
-        I'm a full-stack developer based in Myanmar(Burma)
-      </p>
-      <a href="#contact" className="button button--flex">
-        Say Hello
+      </motion.h1>
+
+      <motion.h3
+        className="home__subtitle"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.9 }}
+      >
+        Full Stack Developer
+      </motion.h3>
+
+      <motion.p
+        className="home__description"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.1 }}
+      >
+        I'm a Full Stack Developer based in Myanmar (Burma)
+      </motion.p>
+
+      <motion.a
+        href="#contact"
+        className="button button--flex"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.3 }}
+      >
+        Message Me
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +109,8 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
-    </div>
+      </motion.a>
+    </motion.div>
   );
 };
 
