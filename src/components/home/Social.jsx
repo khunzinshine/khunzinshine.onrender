@@ -32,12 +32,12 @@ const Social = () => {
           icon: "uil uil-linkedin",
         },
         {
-          href: "https://join.skype.com/invite/dBb8BnLPCvOo",
-          icon: "uil uil-skype",
+          href: "https://web.whatsapp.com/khunzinshine",
+          icon: "uil uil-whatsapp-alt",
         },
         {
-          href: "https://www.instagram.com/khunzinshine/",
-          icon: "uil uil-instagram-alt",
+          href: "https://line.me/R/ti/p/kzs_0718",
+          icon: "uil uil-line",
         },
       ].map((item, index) => (
         <motion.a

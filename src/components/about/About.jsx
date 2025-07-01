@@ -1,7 +1,6 @@
 import "./about.scss";
 import { motion } from "framer-motion";
 
-import Info from "./Info";
 import MyCV from "../../assets/khunzinshine_resume.pdf";
 
 const About = () => {
@@ -28,13 +27,13 @@ const About = () => {
       </motion.span>
 
       <motion.div
-        className="about__container container"
+        className="about__container container about__data"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.6 }}
         viewport={{ once: false, amount: 0.2 }}
       >
-        <Info />
+        {/* <Info /> */}
 
         <motion.p
           className="about__description"
@@ -43,9 +42,9 @@ const About = () => {
           transition={{ delay: 0.8, duration: 0.6 }}
           viewport={{ once: false, amount: 0.2 }}
         >
-          Full Stack Developer with 5+ years of experience, skilled in
-          JavaScript, TypeScript, ReactJS, NextJS, and NodeJS. I have worked in
-          the digital banking and retail grocery industries, building efficient,
+          Frontend engineer with 5+ years of experience, skilled in JavaScript,
+          TypeScript, ReactJS, NextJS, and NodeJS. I have worked in the digital
+          banking and retail grocery industries, building efficient,
           user-focused applications. I enjoy solving complex problems and
           continuously learning new technologies to stay ahead in the field.
         </motion.p>
