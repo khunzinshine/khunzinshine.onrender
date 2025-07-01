@@ -32,7 +32,7 @@ const Social = () => {
           icon: "uil uil-linkedin",
         },
         {
-          href: "https://web.whatsapp.com/khunzinshine",
+          href: "https://web.whatsapp.com",
           icon: "uil uil-whatsapp-alt",
         },
         {

@@ -89,9 +89,9 @@ const Contact = () => {
                   href: "https://www.linkedin.com/in/khun-zin-shine/",
                 },
                 {
-                  icon: "bx bxl-skype",
-                  title: "Skype",
-                  href: "https://join.skype.com/invite/dBb8BnLPCvOo",
+                  icon: "bx bxl-whatsapp",
+                  title: "WhatsApp",
+                  href: "https://web.whatsapp.com/",
                 },
               ].map(({ icon, title, href }, i) => (
                 <motion.div
@@ -105,7 +105,12 @@ const Contact = () => {
                 >
                   <i className={`${icon} contact__card-icon`}></i>
                   <h3 className="contact__card-title">{title}</h3>
-                  <a href={href} className="contact__button">
+                  <a
+                    href={href}
+                    className="contact__button"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Direct Message
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                   </a>
